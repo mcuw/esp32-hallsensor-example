@@ -4,6 +4,8 @@
 
 This is an example how to use the internal hall sensor and to create microcontroller apps with automatized firmware builds for [ESP32](https://www.espressif.com/en/products/socs/esp32).
 
+<img src="doc/hallsensor_lolin32pro.jpg" alt="The hall sensor of the Lolin32 pro board detecteds contactless the neodym magnets" width="480" />
+
 ## Features 
 
 - Uses Platformio
