@@ -16,7 +16,7 @@ This is an example how to use the internal hall sensor and to create microcontro
 
 - [VSCode](https://code.visualstudio.com/) IDE
 
-- [pioarduino IDE](#Pioarduino) for [VSCode](https://code.visualstudio.com/) IDE
+- [Platformio IDE](#Platformio) for [VSCode](https://code.visualstudio.com/) IDE
 
 ## Supported boards
 
