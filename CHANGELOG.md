@@ -1,5 +1,6 @@
 CHANGELOG
 
-## v0.0.0
+## v0.1.1
 
-PLEASE WRITE YOUR CHANGES BEFORE YOU CREATE A RELEASE IN THE CHANGELOG.MD FILE!
+- chore
+- add image of lolin32-pro board
