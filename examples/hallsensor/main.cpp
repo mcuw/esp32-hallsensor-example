@@ -9,7 +9,7 @@
  */
 #include <Arduino.h>
 
-#define uS_TO_S_FACTOR 1000000
+#define uS_TO_MS_FACTOR 1000
 
 #ifndef LED_BUILTIN
 #pragma "LED_BUILTIN is not defined. Please define LED_BUILTIN in your board variant file or use an external LED connected to a GPIO pin and update the code accordingly."
@@ -28,7 +28,7 @@ void setup()
 
   Serial.println("switch LED off");
   digitalWrite(LED_BUILTIN, HIGH);
-  esp_sleep_enable_timer_wakeup(2 * uS_TO_S_FACTOR); // 2s
+  esp_sleep_enable_timer_wakeup(200 * uS_TO_MS_FACTOR); // 200ms
   esp_deep_sleep_start();
 }
 
