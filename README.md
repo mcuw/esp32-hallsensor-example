@@ -142,6 +142,18 @@ You can reduce and adapt your required boards in the [platformio.ini](platformio
 
 Update the [CHANGELOG.md](CHANGELOG.md) file before you are creating a new release. By creating a new git tag you trigger a new release which generate for you the firmwares.
 
+## Troubleshooting
+
+Error on build with platformio:
+```sh
+No module named 'intelhex'
+```
+
+Fix:
+```sh
+pip3 install intelhex
+```
+
 
 ## Disclaimer
 
