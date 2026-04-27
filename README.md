@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a project template to create microcontroller apps with automatized firmware builds for [ESP32](https://www.espressif.com/en/products/socs/esp32), [ESP32-S2](https://www.espressif.com/en/products/socs/esp32-s2), [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3), [ESP32-C6](https://www.espressif.com/en/products/socs/esp32-c6), [ESP32-H2](https://www.espressif.com/en/products/socs/esp32-h2) and [ESP32-P4](https://www.espressif.com/en/products/socs/esp32-p4) microcontroller boards. It uses for that [GitHub Actions](https://github.com/features/actions) and [platformio](https://platformio.org/). Use this repository as a template for your own esp32 projects.
+This is an example how to use the internal hall sensor and to create microcontroller apps with automatized firmware builds for [ESP32](https://www.espressif.com/en/products/socs/esp32).
 
 ## Features 
 
@@ -18,11 +18,11 @@ This is a project template to create microcontroller apps with automatized firmw
 
 ## Supported boards
 
-If you want to support this project, you can use these affiliate links ...
+If you want to support this project, you can use these affiliate links* ...
 
 - ESP32
-  - [LilyGo T-Beam v0.7/ v1.1](https://s.click.aliexpress.com/e/_DBzslDV) (aliexpress affiliate link)
-  - [LilyGo TTGO LORA32 v1.6.1](https://s.click.aliexpress.com/e/_c3WEJk85) (aliexpress affiliate link)
+  - [LilyGo T-Beam v0.7/ v1.1](https://s.click.aliexpress.com/e/_DBzslDV)*
+  - [LilyGo TTGO LORA32 v1.6.1](https://s.click.aliexpress.com/e/_c3WEJk85)*
   - lolin32
   - lolin D32 pro
 
@@ -52,17 +52,7 @@ git commit -am "my app"
 git push -u origin main
 ```
 
-5. Create a new tag to trigger a release, e.g. for v1.0.0
-
-```sh
-git tag v1.0.0
-```
-
-```sh
-git push origin v1.0.0
-```
-
-(do not use `create release` on github)
+5. Create a new release to trigger a release with a tag, e.g. v1.0.0
 
 6. After the CI build, you can find your firmware files under “Releases”. Files with `.factory.` in the name are meant for the initial flashing via cable. The others are for updates (e.g. OTA) when a factory version is already on the device. The `.factory.` files also include a pre-installed file system, bootloader, partition scheme, and safeboot partition.
 
