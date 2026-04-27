@@ -30,8 +30,6 @@ Newer board do not have a hall sensor anymore.
 
 ## Get Started
 
-<img src="https://github.com/mcuw/ESP32-ghbuild-template/blob/main/doc/create-new-project-with-template.png" />
-
 1. Login to github
 
 2. Clone this git repository
