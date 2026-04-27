@@ -34,7 +34,7 @@ Newer board do not have a hall sensor anymore.
 
 1. Login to github
 
-2. Click on `Use this template` to create a new git repository
+2. Clone this git repository
 3. Replace the whole content of this [README.md](README.md) file
 4. Implement your application in the [src/main.cpp](src/main.cpp)
 5. Comment your new change in the [CHANGELOG.md](CHANGELOG.md) file
